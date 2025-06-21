@@ -31,8 +31,8 @@ venv/
 *.zip
 
 # App-specific assets
-assets/*
-assets/breathing.gif 
+# assets/*
+# assets/breathing.gif 
 
 # Specific large file that caused error
 assets/alone_movie.mkv
