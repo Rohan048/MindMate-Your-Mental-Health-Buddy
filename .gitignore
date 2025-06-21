@@ -1,0 +1,43 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment config & secrets
+.env
+
+# VSCode
+.vscode/
+
+# Streamlit config files
+.streamlit/
+
+# Logs
+*.log
+
+# Data and model files
+*.csv
+
+# Media & large files
+*.mp3
+*.mp4
+*.mkv
+*.gif
+*.zip
+
+# App-specific assets
+assets/*
+assets/breathing.gif 
+
+# Specific large file that caused error
+assets/alone_movie.mkv
+
+# System files
+.DS_Store
+Thumbs.db
+
