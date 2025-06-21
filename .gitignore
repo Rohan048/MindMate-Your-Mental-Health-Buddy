@@ -20,15 +20,6 @@ venv/
 # Logs
 *.log
 
-# Data and model files
-*.csv
-
-# Media & large files
-*.mp3
-*.mp4
-*.mkv
-*.gif
-*.zip
 
 # App-specific assets
 # assets/*
