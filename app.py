@@ -33,27 +33,27 @@ st.write(suggestion)
 if mood in ['Choose']:
     ""
 elif mood in ['Anxious']:
-    st.image("assets/breathing.gif", caption="Follow this breathing exercise", use_column_width=True)
+    st.image("assets/breathing.gif", caption="Follow this breathing exercise", use_container_width=True)
     st.audio("assets/breathing.mp3")
 
 elif mood in ['Happy']:
-    st.image("assets/happy.gif", caption="Enjoy The Day😂👍 ", use_column_width=True)
+    st.image("assets/happy.gif", caption="Enjoy The Day😂👍 ", use_container_width=True)
     st.audio("assets/happy.mp3")
 
 elif mood in ['Sad']:
-    st.image("assets/sad.gif", caption="Go For a Short Walk🚶❤️ ", use_column_width=True)
+    st.image("assets/sad.gif", caption="Go For a Short Walk🚶❤️ ", use_container_width=True)
     st.audio("assets/sad.m4a")
 
 elif mood in ['Angry']:
-    st.image("assets/angry.gif", caption="Take a Deep Breath😤☺️ ", use_column_width=True)
+    st.image("assets/angry.gif", caption="Take a Deep Breath😤☺️ ", use_container_width=True)
     st.audio("assets/angry.mp3")
 
 elif mood in ['Calm']:
-    st.image("assets/calm.gif", caption="Go for Long Drive❤️ ", use_column_width=True)
+    st.image("assets/calm.gif", caption="Go for Long Drive❤️ ", use_container_width=True)
     st.audio("assets/calm.mp3")
 
 elif mood in ['Alone']:
-    st.image("assets/alone.gif", caption="Watch Favourite Movies & Series👌 ", use_column_width=True)
+    st.image("assets/alone.gif", caption="Watch Favourite Movies & Series👌 ", use_container_width=True)
     st.audio("assets/alone_music.m4a")
     st.write("You can watch this funny Movie😂")
 
